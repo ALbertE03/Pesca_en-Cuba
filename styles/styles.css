@@ -1,17 +1,59 @@
 body {
-    background-image: url('/src/photos/IMAGE\ 2024-06-12\ 11:54:27.jpg');
-    background-size: cover;
-    background-position: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-@media (max-width: 768px) {
-    body {
-        background-position: center top;
-    }
+.navbar {
+    position: sticky;
+    top: 0;
+    backdrop-filter: blur(45px);
+    margin-top: 15px;
+    border-radius: 40px;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 3%, rgba(9, 9, 121, 1) 44%, rgba(0, 212, 255, 1) 89%);
+    padding: 1em;
+    text-align: center;
+
 }
 
-@media (min-width: 769px) {
-    body {
-        background-attachment: fixed;
-    }
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar li {
+    margin-right: 20px;
+}
+
+.navbar a {
+    color: #fbf8f8;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: rgb(29, 115, 189);
+}
+
+#peces {
+    background-color: blueviolet;
+}
+
+#empresas {
+    background-color: darkgreen;
+}
+
+#precios {
+    background-color: chocolate;
+}
+
+#importaciones {
+    background-color: aqua;
+}
+
+footer {
+    background-color: beige;
 }
