@@ -7,7 +7,15 @@
     border-radius: 15px;
 }
 
-
+.fish-item .graph {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+    height: 50%;
+}
 
 p {
     color: #fbf8f8;
@@ -22,6 +30,7 @@ p {
 }
 
 .fish-item {
+    justify-content: center;
     align-items: center;
     text-align: center;
 }
