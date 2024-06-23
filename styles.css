@@ -1,6 +1,18 @@
 #peces {
     background-color: blueviolet;
     text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+p {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 1.5;
+    text-align: justify;
 }
 
 .fish-item {
@@ -9,6 +21,7 @@
 }
 
 .fish-item li {
+    line-height: 1.5;
     padding-left: 20px;
     text-align: center;
     padding-right: 20px;
@@ -17,12 +30,14 @@
 }
 
 .fish-item p {
+    line-height: 1.5;
     margin-top: 15px;
     margin-bottom: 15px;
     margin-left: 15px;
     padding-left: 20px;
     padding-right: 20px;
     text-align: center;
+
 }
 
 .fish-item img {
@@ -49,6 +64,7 @@ body {
     padding: 0;
     margin-left: 15px;
     margin-right: 15px;
+    box-sizing: border-box;
 }
 
 .navbar {
