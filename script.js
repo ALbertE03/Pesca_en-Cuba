@@ -54,7 +54,7 @@ function ProcesarDatos(texto) {
                     data: lista,
                     borderColor: 'rgba(255, 0, 0, 1)',
                     pointBackgroundColor: "rgba(255, 0, 0, 1)",
-                    borderWidth: 1,
+                    borderWidth: 4,
                     pointBorderColor: "rgba(255, 0, 0, 1)",
                 }, {
                     label: ' toneladas de Camarón de Mar',
@@ -62,7 +62,7 @@ function ProcesarDatos(texto) {
                     pointBackgroundColor: "rgba(255, 255, 255, 1)",
                     pointBorderColor: "rgba(255, 255, 255, 1)",
                     borderColor: 'rgba(255, 255, 255, 1)',
-                    borderWidth: 1,
+                    borderWidth: 4,
                     data: a,
                 }, {
                     label: 'toneladas de Carpa',
@@ -71,7 +71,7 @@ function ProcesarDatos(texto) {
                     pointBackgroundColor: "rgba(250, 255, 4, 0.57)",
                     pointBorderColor: "rgba(250, 255, 4, 0.57)",
                     borderColor: 'rgba(250, 255, 4, 0.57)',
-                    borderWidth: 1,
+                    borderWidth: 4,
                 }, {
                     data: c,
                     label: 'toneladas de Pargo',
@@ -79,23 +79,23 @@ function ProcesarDatos(texto) {
                     pointBackgroundColor: "rgba(255, 4, 197, 0.96)",
                     pointBorderColor: "rgba(255, 4, 197, 0.96)",
                     borderColor: 'rgba(255, 4, 197, 0.96)',
-                    borderWidth: 1,
+                    borderWidth: 4,
                 }, {
                     data: d,
                     label: 'toneladas de Raya',
-                    backgroundColor: 'orange',
-                    pointBackgroundColor: "orange",
-                    pointBorderColor: "orange",
-                    borderColor: 'orange',
-                    borderWidth: 1,
+                    backgroundColor: 'rgba(255, 124, 4, 1)',
+                    pointBackgroundColor: "rgba(255, 124, 4, 1)",
+                    pointBorderColor: "rgba(255, 124, 4, 1)",
+                    borderColor: 'rgba(255, 124, 4, 1)',
+                    borderWidth: 4,
                 }, {
                     data: e,
                     label: 'toneladas de Cherna',
-                    backgroundColor: 'brown',
-                    pointBackgroundColor: "brown",
-                    pointBorderColor: "brown",
-                    borderColor: 'brown',
-                    borderWidth: 1,
+                    backgroundColor: 'rgba(148, 99, 54, 0.85)',
+                    pointBackgroundColor: "rgba(148, 99, 54, 0.85)",
+                    pointBorderColor: "rgba(148, 99, 54, 0.85)",
+                    borderColor: 'rgba(148, 99, 54, 0.85)',
+                    borderWidth: 4,
                 }, {
                     data: f,
                     label: "toneladas de Clarias",
@@ -103,22 +103,23 @@ function ProcesarDatos(texto) {
                     pointBackgroundColor: "rgba(0, 47, 231, 1)",
                     pointBorderColor: "rgba(0, 47, 231, 1)",
                     borderColor: 'rgba(0, 47, 231, 1)',
-                    borderWidth: 1,
+                    borderWidth: 4,
                 }, {
                     data: g,
                     label: 'toneladas de Cobo ',
-                    backgroundColor: 'purple',
-                    pointBackgroundColor: "purple",
-                    pointBorderColor: "purple",
-                    borderColor: 'purple',
-                    borderWidth: 1,
+                    backgroundColor: 'rgba(149, 0, 255, 0.85)',
+                    pointBackgroundColor: "rgba(149, 0, 255, 0.85)",
+                    pointBorderColor: "rgba(149, 0, 255, 0.85)",
+                    borderColor: 'rgba(149, 0, 255, 0.85)',
+                    borderWidth: 4,
                 }, {
                     data: h,
+                    backgroundColor: 'rgba(255, 85, 0, 0.56)',
                     label: 'toneladas de Langosta',
-                    pointBackgroundColor: "pink",
-                    pointBorderColor: "pink",
-                    borderColor: 'pink',
-                    borderWidth: 1,
+                    pointBackgroundColor: "rgba(255, 85, 0, 0.56)",
+                    pointBorderColor: "rgba(255, 85, 0, 0.56)",
+                    borderColor: 'rgba(255, 85, 0, 0.56)',
+                    borderWidth: 4,
                 }, {
                     data: i,
                     label: 'toneladas de Machuelo',
@@ -126,7 +127,7 @@ function ProcesarDatos(texto) {
                     pointBackgroundColor: "silver",
                     pointBorderColor: "silver",
                     borderColor: 'silver',
-                    borderWidth: 1,
+                    borderWidth: 4,
                 }, {
                     data: j,
                     label: 'toneladas de Tencas',
@@ -134,43 +135,90 @@ function ProcesarDatos(texto) {
                     pointBackgroundColor: "rgba(133, 255, 0, 1)",
                     pointBorderColor: "rgba(133, 255, 0, 1)",
                     borderColor: 'rgba(133, 255, 0, 1)',
-                    borderWidth: 1,
+                    borderWidth: 4,
                 }, {
                     data: k,
-                    label: 'toneladas de Túnidos'
+                    label: 'toneladas de Túnidos',
+                    backgroundColor: 'rgba(41, 45, 34, 0.49)',
+                    pointBackgroundColor: "rgba(41, 45, 34, 0.49)",
+                    pointBorderColor: "rgba(41, 45, 34, 0.49)",
+                    borderColor: 'rgba(41, 45, 34, 0.49)',
+                    borderWidth: 4,
                 }, {
                     data: l,
-                    label: 'toneladas de Morallas'
+                    label: 'toneladas de Morallas',
+                    backgroundColor: 'rgba(255, 255, 0, 1)',
+                    pointBackgroundColor: "rgba(255, 255, 0, 1)",
+                    pointBorderColor: "rgba(255, 255, 0, 1)",
+                    borderColor: 'rgba(255, 255, 0, 1)',
+                    borderWidth: 4,
                 }, {
                     data: m,
-                    label: 'toneladas de Ostiones'
+                    label: 'toneladas de Ostiones',
+                    backgroundColor: 'rgba(0, 0, 0, 0.68)',
+                    pointBackgroundColor: "rgba(0, 0, 0, 0.68)",
+                    pointBorderColor: "rgba(0, 0, 0, 0.68)",
+                    borderColor: 'rgba(0, 0, 0, 0.68)',
+                    borderWidth: 4,
                 }, {
                     data: n,
-                    label: 'toneladas de Tilapias'
+                    label: 'toneladas de Tilapias',
+                    backgroundColor: 'rgba(0, 255, 255, 1)',
+                    pointBackgroundColor: "rgba(0, 255, 255, 1)",
+                    pointBorderColor: "rgba(0, 255, 255, 1)",
+                    borderColor: 'rgba(0, 255, 255, 1)',
+                    borderWidth: 4,
                 }, {
                     data: o,
-                    label: 'toneladas de Biajaiba'
+                    label: 'toneladas de Biajaiba',
+                    backgroundColor: 'rgba(191, 39, 217, 1)',
+                    pointBackgroundColor: "rgba(191, 39, 217, 1)",
+                    pointBorderColor: "rgba(191, 39, 217, 1)",
+                    borderColor: 'rgba(191, 39, 217, 1)',
+                    borderWidth: 4,
                 }, {
                     data: p,
-                    label: 'toneladas de rabirubias'
+                    label: 'toneladas de rabirubias',
+                    backgroundColor: 'rgba(255, 82, 13, 1)',
+                    pointBackgroundColor: "rgba(255, 82, 13, 1)",
+                    pointBorderColor: "rgba(255, 82, 13, 1)",
+                    borderColor: 'rgba(255, 82, 13, 1)',
+                    borderWidth: 4,
                 }, {
                     data: q,
-                    label: 'toneladas de Camaronnicultura'
+                    label: 'toneladas de Camaronnicultura',
+                    backgroundColor: 'rgba(108, 143, 6, 1)',
+                    pointBackgroundColor: "rgba(108, 143, 6, 1)",
+                    pointBorderColor: "rgba(108, 143, 6, 1)",
+                    borderColor: 'rgba(108, 143, 6, 1)',
+                    borderWidth: 4,
                 }]
             },
             options: {
+
                 scales: {
                     y: {
                         ticks: { color: "white" },
                         beginAtZero: true,
-                        pointBackgroundColor: "white", pointBorderColor: "white", borderColor: 'white', borderWidth: 1,
+                        pointBackgroundColor: "white",
+                        pointBorderColor: "white",
+                        borderColor: 'white',
+                        borderWidth: 4,
                     }, x: {
                         ticks: {
                             color: "white",
-                            pointBackgroundColor: "white", pointBorderColor: "white", borderColor: 'white', borderWidth: 1,
+                            pointBackgroundColor: "white",
+                            pointBorderColor: "white",
+                            borderColor: 'white',
+                            borderWidth: 4,
                         },
                     },
-                },
+                }, legend: {
+                    labels: {
+                        fontColor: 'whtie',
+                        backgroundColor: 'white'
+                    }
+                }
             }
         });
     }
