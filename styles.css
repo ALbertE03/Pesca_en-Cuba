@@ -46,7 +46,47 @@ body {
 
 #empresas {
     background: linear-gradient(to right, #005bb6, #01017a);
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
+
+#empresas h1 {
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#empresas article {
+    background: #ffffff;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+#empresas img {
+    width: 50%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    
+}
+
+.descripcion {
+    background: #f0f0f0;
+    padding: 10px;
+    margin-top: 15px;
+    border-left: 5px solid #005bb6;
+}
+
+.descripcion p {
+    text-align: justify;
+    line-height: 1.6; 
+}
+
 
 #precios {
     background-color: chocolate;
