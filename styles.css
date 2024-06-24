@@ -45,7 +45,7 @@ body {
 }
 
 #empresas {
-    background-color: darkgreen;
+    background: linear-gradient(to right, #005bb6, #01017a);
 }
 
 #precios {
