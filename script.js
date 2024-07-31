@@ -1,5 +1,5 @@
 const ctx = document.getElementById("almeja").getContext('2d');
-fetch("/Pesca_en-Cuba/src/BD/tabla1.csv")
+fetch("/src/BD/tabla1.csv")
     .then(response => response.text())
     .then(datos => ProcesarDatos(datos))
     .catch(error => console.log("error " + error));
