@@ -1,38 +1,38 @@
 let imagenes = [
     {
-        "url": "src/Almejas.jpg.webp",
+        "url": "/Pesca_en-Cubasrc/Almejas.jpg.webp",
         "nombre": "Proyecto 01",
         "descripcion": "aasadasdasd"
 
     },
     {
-        "url": "src/Pargo.jpg",
+        "url": "/Pesca_en-Cubasrc/Pargo.jpg",
         "nombre": "Proyecto 02",
         "descripcion": "gdfgdfg"
 
     }, {
-        "url": "src/Cherna.jpeg",
+        "url": "/Pesca_en-Cubasrc/Cherna.jpeg",
         "nombre": "Proyecto 02",
         "descripcion": "perrra"
 
     }, {
-        'url': "src/tunidos.jpg",
+        'url': "/Pesca_en-Cubasrc/tunidos.jpg",
         'nombre': "Túnido",
         'descripcion': "Túnidos"
     }, {
-        'url': 'src/machuelos.PNG',
+        'url': '/Pesca_en-Cubasrc/machuelos.PNG',
         'nombre': 'Machuelos',
         'descripcion': 'pppppp'
     }, {
-        'url': 'src/claria.jpg',
+        'url': '/Pesca_en-Cubasrc/claria.jpg',
         'nombre': 'Claria',
         'descripcion': 'pppppp'
     }, {
-        'url': 'src/camaron.jpg',
+        'url': '/Pesca_en-Cubasrc/camaron.jpg',
         'nombre': 'Camaron',
         'descripcion': 'pppppp'
     }, {
-        'url': 'src/langosta.jpeg-2.webp',
+        'url': '/Pesca_en-Cubasrc/langosta.jpeg-2.webp',
         'nombre': 'Langosta',
         'descripcion': 'pppppp'
     }
