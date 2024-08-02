@@ -6,29 +6,29 @@ let imagenes = [
 
     },
     {
-        "url": "/Pesca_en-Cuba/Peces/src/Pargo.jpg",
+        "url": "/Pesca_en-Cuba/Peces/src/Pargo.webp",
         "nombre": "Proyecto 02",
         "descripcion": "gdfgdfg"
 
     }, {
-        "url": "/Pesca_en-Cuba/Peces/src/Cherna.jpeg",
+        "url": "/Pesca_en-Cuba/Peces/src/Cherna.webp",
         "nombre": "Proyecto 02",
         "descripcion": "perrra"
 
     }, {
-        'url': "/Pesca_en-Cuba/Peces/src/tunidos.jpg",
+        'url': "/Pesca_en-Cuba/Peces/src/tunidos.webp",
         'nombre': "Túnido",
         'descripcion': "Túnidos"
     }, {
-        'url': '/Pesca_en-Cuba/Peces/src/machuelos.PNG',
+        'url': '/Pesca_en-Cuba/Peces/src/machuelos.webp',
         'nombre': 'Machuelos',
         'descripcion': 'pppppp'
     }, {
-        'url': '/Pesca_en-Cuba/Peces/src/claria.jpg',
+        'url': '/Pesca_en-Cuba/Peces/src/claria.webp',
         'nombre': 'Claria',
         'descripcion': 'pppppp'
     }, {
-        'url': '/Pesca_en-Cuba/Peces/src/camaron.jpg',
+        'url': '/Pesca_en-Cuba/Peces/src/camaron.webp',
         'nombre': 'Camaron',
         'descripcion': 'pppppp'
     }, {
