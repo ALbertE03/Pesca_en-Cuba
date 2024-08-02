@@ -3,7 +3,7 @@
 body {
     width: 100vw;
     height: 100vh;
-    background-color: #eafdfc;
+    background-color: #16d0c7;
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
@@ -46,7 +46,7 @@ body {
 
 }
 
-.muela p {
+.muela a {
     font-family: 'Roboto', sans-serif;
 }
 
