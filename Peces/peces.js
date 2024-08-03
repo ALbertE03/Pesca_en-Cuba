@@ -55,7 +55,7 @@ atras.addEventListener('click', function () {
         actual = imagenes.length - 1
     }
 
-    imagen.innerHTML = ` <img class="img" src="${imagenes[actual].url}" alt="logo pagina"></img>`
+    imagen.innerHTML = ` <img class="img" src="${imagenes[actual].url}" alt="logo pagina" loading="eager"></img>`
     texto.innerHTML = `
     <h3>${imagenes[actual].nombre}</h3>
     <p>${imagenes[actual].descripcion}</p>
@@ -68,7 +68,7 @@ adelante.addEventListener('click', function () {
     if (actual == imagenes.length) {
         actual = 0
     }
-    imagen.innerHTML = ` <img class="img" src="${imagenes[actual].url}" alt="logo pagina" ></img>`
+    imagen.innerHTML = ` <img class="img" src="${imagenes[actual].url}" alt="logo pagina" loadig ="eager"></img>`
     texto.innerHTML = `
     <h3>${imagenes[actual].nombre}</h3>
     <p>${imagenes[actual].descripcion}</p>
