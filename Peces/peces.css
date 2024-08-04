@@ -3,7 +3,7 @@
 body {
     width: 100vw;
     height: 100vh;
-    background-color: #16d0c7;
+    background-color: #7cebe6;
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
@@ -165,6 +165,15 @@ body {
 
 
 @media (max-width: 768px) {
+    .imagenes:hover .texto {
+        transform: translateY(0);
+        height: auto;
+        background-color: rgba(63, 106, 138, 0.8);
+    }
+
+    .imagenes:hover .texto p {
+        font-size: 16px;
+    }
 
     body {
         padding-top: 20px;
@@ -180,18 +189,32 @@ body {
     .texto {
         width: 90%;
         height: auto;
+        padding: 10px 20px;
+        border-radius: 15px;
+        text-align: center;
+        background-color: rgba(63, 106, 138, 0.8);
+        color: white;
+        bottom: 20px;
+        position: absolute;
+        bottom: -50%;
+        transform: translateX(0);
 
     }
 
     .texto h3 {
         font-size: 20px;
+        text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+        margin: 0;
+        padding: 10px 0;
 
     }
 
     .texto p {
         font-size: 16px;
-
         padding: 10px;
+        padding: 10px;
+        color: white;
+        opacity: 0.9;
 
     }
 
