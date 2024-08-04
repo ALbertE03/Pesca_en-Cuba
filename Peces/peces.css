@@ -92,6 +92,8 @@ body {
     justify-content: center;
     border-radius: 30px;
     bottom: 20px;
+    max-height: 150px;
+    overflow-y: auto;
 
 
 
@@ -164,18 +166,8 @@ body {
     color: #5E17EB;
 }
 
-
-
-
 @media (max-width: 768px) {
-    .imagenes {
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        height: 100%;
-    }
+
 
     .imagenes:hover .texto {
         transform: translateY(0);
@@ -218,7 +210,6 @@ body {
         bottom: 20px;
         bottom: -50%;
         transform: translateX(0);
-
         max-height: 150px;
         overflow-y: auto;
 
@@ -230,7 +221,7 @@ body {
     }
 
     .texto p {
-        font-size: 4vw;
+        font-size: 15px;
         padding: 10px;
         color: white;
         opacity: 0.9;
