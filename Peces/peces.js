@@ -44,7 +44,6 @@ let imagen = document.getElementById('img');
 let puntos = document.getElementById('puntos');
 let texto = document.getElementById('texto')
 let actual = 0
-posicionCarrusel()
 
 atras.addEventListener('click', function () {
     actual -= 1
@@ -58,7 +57,6 @@ atras.addEventListener('click', function () {
     <h3>${imagenes[actual].nombre}</h3>
     <p>${imagenes[actual].descripcion}</p>
     `
-    posicionCarrusel()
 })
 adelante.addEventListener('click', function () {
     actual += 1
@@ -71,18 +69,5 @@ adelante.addEventListener('click', function () {
     <h3>${imagenes[actual].nombre}</h3>
     <p>${imagenes[actual].descripcion}</p>
     `
-    posicionCarrusel()
+
 })
-
-
-function posicionCarrusel() {
-    puntos.innerHTML = ""
-    for (var i = 0; i < imagenes.length; i++) {
-        if (i == actual) {
-            puntos.innerHTML += '<p class="bold">.<p>'
-        }
-        else {
-            puntos.innerHTML += '<p>.<p>'
-        }
-    }
-}

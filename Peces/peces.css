@@ -13,8 +13,9 @@ body {
     justify-content: center;
     padding-top: 70px;
     overflow: hidden;
-    width: 100%;
+    width: 90%;
     height: 100vh;
+
 }
 
 .atras {
@@ -81,6 +82,7 @@ body {
 }
 
 .texto {
+    width: 90%;
     overflow: hidden;
     position: absolute;
     flex-direction: column;
@@ -94,6 +96,9 @@ body {
     bottom: 20px;
     max-height: 150px;
     overflow-y: auto;
+    max-height: 150px;
+    padding: 10px;
+
 
 
 
@@ -109,6 +114,7 @@ body {
 }
 
 .texto h3 {
+
     text-shadow: 0px 0px 15px black;
     padding-top: 40px;
     color: white;
@@ -117,11 +123,13 @@ body {
 }
 
 .texto p {
+    white-space: normal;
     align-items: center;
     padding: 20px;
     color: white;
     font-size: 0px;
     font-weight: 300;
+    text-overflow: ellipsis;
 }
 
 .imagenes .texto {
@@ -197,7 +205,7 @@ body {
     }
 
     .texto {
-        width: 90%;
+        width: 95%;
         height: auto;
         padding: 10px;
         border-radius: 15px;
