@@ -1,32 +1,32 @@
 let imagenes = [
     {
-        "url": "/Peces/src/pargo-1.jpg",
+        "url": "/Pesca_en-Cuba/Peces/src/pargo-1.jpg",
         "nombre": "Pargo",
         "descripcion": "Empresa Pesca Caribe es una entidad que se destaca en el sector pesquero de Cuba, con presencia significativa en la industria.Se dirige principalmente a los sectores turístico y empresarial, ofreciendo productos y servicios que cumplen con las expectativas de un mercado exigente. Con un enfoque en la sostenibilidad y la responsabilidad ambiental, Pesca Caribe trabaja para proporcionar una variedad de productos pesqueros de alta calidad.La empresa se ha ganado una reputación por su compromiso con la excelencia y su capacidad para adaptarse a las cambiantes demandas del mercado."
 
     }, {
-        "url": "/Peces/src/grouper2.jpg",
+        "url": "/Pesca_en-Cuba/Peces/src/grouper2.jpg",
         "nombre": "Cherna",
         "descripcion": "perrra"
 
     }, {
-        'url': "/Peces/src/tunidos.webp",
+        'url': "/Pesca_en-Cuba/Peces/src/tunidos.webp",
         'nombre': "Túnido",
         'descripcion': "Túnidos"
     }, {
-        'url': '/Peces/src/machuelo.jpg',
+        'url': '/Pesca_en-Cuba/Peces/src/machuelo.jpg',
         'nombre': 'Machuelos',
         'descripcion': 'pppppp'
     }, {
-        'url': '/Peces/src/88683_03.jpg',
+        'url': '/Pesca_en-Cuba/Peces/src/88683_03.jpg',
         'nombre': 'Claria',
         'descripcion': 'pppppp'
     }, {
-        'url': '/Peces/src/Comp-camaron-con-cabeza-ing.jpg',
+        'url': '/Pesca_en-Cuba/Peces/src/Comp-camaron-con-cabeza-ing.jpg',
         'nombre': 'Camaron',
         'descripcion': 'pppppp'
     }, {
-        'url': '/Peces/src/compra-langosta-roja-de-Galicia.jpg',
+        'url': '/Pesca_en-Cuba/Peces/src/compra-langosta-roja-de-Galicia.jpg',
         'nombre': 'Langosta',
         'descripcion': 'pppppp'
     }
