@@ -165,7 +165,7 @@ body {
     }
 
     .imagenes:hover .texto {
-        transform: translateY(0);
+        transform: translateY(150);
         height: auto;
         background-color: rgba(63, 106, 138, 0.8);
     }
