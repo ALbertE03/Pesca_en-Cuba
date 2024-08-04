@@ -208,7 +208,7 @@ body {
         color: white;
         position: absolute;
         bottom: 20px;
-        bottom: -50%;
+        bottom: -60%;
         transform: translateX(0);
         max-height: 150px;
         overflow-y: auto;
