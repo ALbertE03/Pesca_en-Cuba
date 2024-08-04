@@ -220,6 +220,7 @@ body {
         color: white;
         position: absolute;
         bottom: 20px;
+        bottom: -50%;
         transform: translateX(0);
 
     }
