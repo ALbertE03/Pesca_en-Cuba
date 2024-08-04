@@ -208,7 +208,7 @@ body {
         color: white;
         position: absolute;
         bottom: 20px;
-        bottom: -50%;
+        bottom: -60%;
         transform: translateX(0);
         max-height: 150px;
         overflow-y: auto;
@@ -216,6 +216,8 @@ body {
     }
 
     .texto h3 {
+        bottom: 20px;
+        bottom: -60%;
         font-size: 4vw;
         text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
     }
