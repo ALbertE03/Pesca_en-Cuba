@@ -34,23 +34,6 @@ body {
     margin-right: 20px;
 }
 
-.muela {
-    position: absolute;
-    top: 40px;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 10px 20px;
-    border-radius: 10px;
-
-    text-align: center;
-
-}
-
-.muela a {
-    font-family: 'Roboto', sans-serif;
-}
-
 .carusel {
     position: relative;
     display: flex;
@@ -98,10 +81,6 @@ body {
     overflow-y: auto;
     max-height: 150px;
     padding: 10px;
-
-
-
-
     padding: 10px 20px;
     border-radius: 15px;
     text-align: center;
