@@ -167,11 +167,12 @@ body {
     .imagenes:hover .texto {
         transform: translateY(150);
         height: auto;
+        height: 300px;
         background-color: rgba(63, 106, 138, 0.8);
     }
 
     .imagenes:hover .texto p {
-        font-size: 15px;
+        font-size: 20px;
     }
 
     body {
