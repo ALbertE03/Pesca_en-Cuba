@@ -153,29 +153,16 @@ body {
     text-shadow: 0px, 0px 10px #000000;
 }
 
-.puntos {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-
-.puntos p {
-    font-size: 100px;
-    font-weight: 500;
-    margin-top: -50px;
-    color: black;
-}
-
-.puntos .bold {
-    font-weight: 700px;
-    margin-left: 10px;
-    margin-right: 10px;
-    color: #5E17EB;
-}
 
 @media (max-width: 768px) {
 
+    .imagenes {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
 
     .imagenes:hover .texto {
         transform: translateY(0);
@@ -194,10 +181,11 @@ body {
     .img {
         height: 300px;
         box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.85);
-        height: 100%;
+        height: auto;
         max-width: none;
         border-radius: 15px;
         margin: 5px;
+        max-width: 1000px;
         object-fit: cover;
         filter: saturate(175%);
         width: 100%;
@@ -229,16 +217,12 @@ body {
     }
 
     .texto p {
-        font-size: 15px;
+        font-size: 10px;
         padding: 10px;
         color: white;
         opacity: 0.9;
 
     }
 
-    .puntos p {
-        font-size: 50px;
-        margin-top: -20px;
 
-    }
 }
