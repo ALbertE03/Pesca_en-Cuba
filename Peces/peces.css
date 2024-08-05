@@ -4,6 +4,8 @@ body {
 }
 
 .Peces {
+    max-width: 80%;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
