@@ -26,7 +26,7 @@ body {
 }
 
 .imagenes {
-    max-width: 90%;
+    max-width: 100%;
     height: auto;
     border-radius: 10px;
 
@@ -57,10 +57,13 @@ p {
     }
 
     .contenedor {
-        max-width: 100%;
-        width: 100%;
-        height: auto;
+
         padding: 10px;
 
+    }
+
+    .imagenes {
+        max-width: 100%;
+        height: auto;
     }
 }
