@@ -1,238 +1,97 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body {
-    width: 100vw;
-    height: 100vh;
-    background-color: #7cebe6;
-    font-family: 'Roboto', sans-serif;
     margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding-top: 70px;
-    overflow: hidden;
-    width: 100%;
-    height: 100vh;
-}
-
-.atras {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-left: 20px;
-    margin-left: 20px;
-}
-
-.adelante {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-right: 20px;
-    margin-right: 20px;
-}
-
-.muela {
-    position: absolute;
-    top: 40px;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 10px 20px;
-    border-radius: 10px;
-
-    text-align: center;
-
-}
-
-.muela a {
     font-family: 'Roboto', sans-serif;
 }
 
-.carusel {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    width: 100%;
-    height: 100vh;
+.volver a {
+    display: inline-block;
+    background-color: #2d6bad;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    font-family: 'Roboto', sans-serif;
 }
 
-.imagenes {
-    position: relative;
+.vovler a:hover {
+    background-color: #6227e1;
+}
+
+.Peces {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.contenedor {
+    max-width: 100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: end;
+    justify-content: center;
+
 }
 
 .img {
-    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.85);
-    height: 576px;
-    width: 100%;
-    max-width: 1000x;
-    border-radius: 15px;
-    margin: 5px;
-    object-fit: cover;
-    filter: saturate(175%);
-    width: 100%;
-}
-
-.texto {
-    overflow: hidden;
-    position: absolute;
-    flex-direction: column;
-    transform: translateY(0px);
-    margin-bottom: 9px;
-    backdrop-filter: blur(20px);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 30px;
-    bottom: 20px;
-    max-height: 150px;
-    overflow-y: auto;
-
-
-
-    padding: 10px 20px;
-    border-radius: 15px;
+    max-width: 100%;
+    height: auto;
     text-align: center;
-}
-
-.atras,
-.adelante {
-    cursor: pointer;
+    margin-bottom: 20px;
 
 }
 
-.texto h3 {
-    text-shadow: 0px 0px 15px black;
-    padding-top: 40px;
-    color: white;
-    font-weight: 300;
-    font-size: 27px;
+.imagenes {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+
 }
 
-.texto p {
-    align-items: center;
-    padding: 20px;
-    color: white;
-    font-size: 0px;
-    font-weight: 300;
+h3 {
+    font-size: 2em;
+    margin: 10px 0;
+
 }
 
-.imagenes .texto {
-    width: 600px;
-    height: 100px;
-    transition: 1s;
+p {
+    font-size: 1em;
+    line-height: 1.5;
+
 }
 
-.imagenes:hover .texto {
-    transition: height 1s, transform 1s, background-color 1s;
-    transform: translateY(-150px);
-    height: 300px;
-    background-color: rgba(63, 106, 138, 0.71);
-}
-
-
-.imagenes:hover .texto p {
-    transition: font-size 0s .2s linear;
-    font-size: 23px;
-    font-weight: 300;
-    text-shadow: 0px, 0px 10px #000000;
-}
-
-.puntos {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-
-.puntos p {
-    font-size: 100px;
-    font-weight: 500;
-    margin-top: -50px;
-    color: black;
-}
-
-.puntos .bold {
-    font-weight: 700px;
-    margin-left: 10px;
-    margin-right: 10px;
-    color: #5E17EB;
-}
 
 @media (max-width: 768px) {
+    h3 {
+        font-size: 1.5em;
 
+    }
 
-    .imagenes:hover .texto {
-        transform: translateY(0);
+    p {
+        font-size: 0.9em;
+
+    }
+
+    .contenedor {
+        max-width: 100%;
         height: auto;
-        background-color: rgba(63, 106, 138, 0.8);
-    }
+        padding: 10px;
 
-    .imagenes:hover .texto p {
-        font-size: 16px;
-    }
-
-    body {
-        padding-top: 20px;
     }
 
     .img {
-        height: 300px;
-        box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.85);
-        height: 100%;
-        max-width: none;
-        border-radius: 15px;
-        margin: 5px;
-        object-fit: cover;
-        filter: saturate(175%);
-        width: 100%;
-
-    }
-
-    .texto {
-        width: 90%;
-        height: auto;
-        padding: 10px;
-        border-radius: 15px;
-        text-align: center;
-        overflow: hidden;
         max-width: 100%;
-        background-color: rgba(63, 106, 138, 0.8);
-        color: white;
-        position: absolute;
-        bottom: 20px;
-        bottom: -60%;
-        transform: translateX(0);
-        max-height: 150px;
-        overflow-y: auto;
-
+        height: auto;
     }
 
-    .texto h3 {
-        bottom: 20px;
-        bottom: -60%;
-        font-size: 4vw;
-        text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
-    }
-
-    .texto p {
-        font-size: 15px;
-        padding: 10px;
-        color: white;
-        opacity: 0.9;
-
-    }
-
-    .puntos p {
-        font-size: 50px;
-        margin-top: -20px;
-
+    .imagenes {
+        max-width: 100%;
+        height: auto;
     }
 }
