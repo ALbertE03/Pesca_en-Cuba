@@ -3,6 +3,21 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.volver a {
+    display: inline-block;
+    background-color: #2d6bad;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    font-family: 'Roboto', sans-serif;
+}
+
+.vovler a:hover {
+    background-color: #6227e1;
+}
+
 .Peces {
     max-width: 100%;
     height: auto;
