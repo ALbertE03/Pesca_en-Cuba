@@ -10,6 +10,26 @@
 
 }
 
+#importaciones h4 {
+    padding-top: 15px;
+    color: white;
+
+}
+
+#importaciones h5 {
+    padding-top: 15px;
+    color: white;
+
+}
+
+#menos {
+    font-size: 15px;
+    border-radius: 15px;
+    color: white;
+    cursor: pointer;
+    background-color: rgba(0, 255, 255, 0.192);
+}
+
 .contenedor {
     display: flex;
     flex-direction: row;
@@ -21,7 +41,7 @@
     font-size: 20px;
     border-radius: 15px;
     color: white;
-    background-color: rgb(130, 152, 238);
+    background-color: rgb(99, 126, 237);
     cursor: pointer;
     margin-right: 10px;
 }
