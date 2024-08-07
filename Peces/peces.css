@@ -30,6 +30,7 @@ body {
 }
 
 .contenedor {
+
     max-width: 100%;
     width: 100%;
     display: flex;
@@ -40,6 +41,7 @@ body {
 }
 
 .img {
+
     max-width: 100%;
     height: auto;
     text-align: center;

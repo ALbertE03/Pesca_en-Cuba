@@ -1,5 +1,5 @@
 #importaciones {
-    background-color: rgba(32, 159, 233, 0.63);
+    background-color: rgb(58, 174, 241);
     border-radius: 15px;
     padding-bottom: 15px;
 }
@@ -24,11 +24,13 @@
 
 #menos {
     font-size: 15px;
-    border-radius: 15px;
+    border-radius: 5px;
     color: white;
     cursor: pointer;
     background-color: rgba(0, 255, 255, 0.192);
 }
+
+
 
 .contenedor {
     display: flex;
@@ -39,19 +41,28 @@
 
 #Visitar {
     font-size: 20px;
-    border-radius: 15px;
+    border-radius: 5px;
     color: white;
     background-color: rgb(99, 126, 237);
     cursor: pointer;
     margin-right: 10px;
 }
 
+#Visitar:hover {
+    background-color: rgba(0, 255, 255, 0.192);
+}
+
 #leer {
     font-size: 15px;
-    border-radius: 15px;
+    border-radius: 5px;
     color: white;
     cursor: pointer;
     background-color: rgba(0, 255, 255, 0.192);
+}
+
+#leer:hover {
+    background-color: rgb(99, 126, 237);
+    color: #e8ebed;
 }
 
 p {
@@ -73,8 +84,7 @@ h1 {
 }
 
 body {
-    background: rgb(109, 193, 233);
-    background: linear-gradient(90deg, rgba(109, 193, 233, 1) 0%, rgba(128, 164, 233, 1) 0%, rgba(134, 109, 233, 1) 70%);
+    background: rgba(0, 0, 0, .30);
     margin-top: 15px;
     margin-bottom: 15px;
     margin-left: 15px;
