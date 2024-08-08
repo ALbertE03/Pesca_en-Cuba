@@ -1,5 +1,5 @@
 #importaciones {
-    background-color: rgb(58, 174, 241);
+    background-color: rgb(113, 192, 238);
     border-radius: 15px;
     padding-bottom: 15px;
 }
@@ -84,7 +84,7 @@ h1 {
 }
 
 body {
-    background: rgba(0, 0, 0, .30);
+    background: rgba(226, 218, 218, 0.498);
     margin-top: 15px;
     margin-bottom: 15px;
     margin-left: 15px;
