@@ -1,5 +1,5 @@
 #importaciones {
-    background-color: rgb(113, 192, 238);
+    background-color: rgb(98, 152, 183);
     border-radius: 15px;
     padding-bottom: 15px;
 }
@@ -29,8 +29,6 @@
     cursor: pointer;
     background-color: rgba(0, 255, 255, 0.192);
 }
-
-
 
 .contenedor {
     display: flex;
@@ -84,7 +82,7 @@ h1 {
 }
 
 body {
-    background: rgba(226, 218, 218, 0.498);
+    background: rgba(74, 183, 237, 0.41);
     margin-top: 15px;
     margin-bottom: 15px;
     margin-left: 15px;
