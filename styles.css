@@ -116,6 +116,11 @@ h1 {
     margin-bottom: 10px; /* Espaciado entre secciones */
 }
 
+.estudiante {
+    font-size: 0.8em; /* Tamaño de fuente más pequeño */
+    color: #000; /* Negro, puedes cambiarlo si deseas otro color */
+}
+
 /* Media Queries para Responsividad */
 @media (min-width: 768px) {
     .footer {
