@@ -52,7 +52,14 @@ body {
     color: #000; /* Negro */
 }
 
-#menos,
+#menos{display:none;
+    font-size:15px;
+    border-radius:5px;
+    color:#000;
+    cursor:pointer;
+    background-color:#fff;
+    }
+    
 #Visitar,
 #leer {
     font-size: 15px;
