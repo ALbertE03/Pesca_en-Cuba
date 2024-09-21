@@ -116,11 +116,6 @@ h1 {
     margin-bottom: 10px; /* Espaciado entre secciones */
 }
 
-.estudiante {
-    font-size: 1em; /* Tamaño de fuente más pequeño */
-    color: #000; /* Negro, puedes cambiarlo si deseas otro color */
-}
-
 .universidad {
     font-size: 1.2em; /* Tamaño de fuente más grande para universidades */
     color: #000; /* Negro */
