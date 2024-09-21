@@ -1,11 +1,9 @@
 body {
-    background-color: #fff;
-    /* Blanco */
+    background-color: #fff; /* Blanco */
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    color: #000;
-    /* Negro */
+    color: #000; /* Negro */
 }
 
 .navbar {
@@ -14,12 +12,10 @@ body {
     backdrop-filter: blur(45px);
     margin-top: 15px;
     border-radius: 40px;
-    background: #fff;
-    /* Blanco */
+    background: #fff; /* Blanco */
     padding: 1em;
     text-align: center;
-    color: #000;
-    /* Negro */
+    color: #000; /* Negro */
 }
 
 .navbar ul {
@@ -35,92 +31,48 @@ body {
 }
 
 .navbar a {
-    color: #000;
-    /* Negro */
+    color: #000; /* Negro */
     text-decoration: none;
 }
 
 .navbar a:hover {
-    color: #666;
-    /* Gris oscuro */
+    color: #666; /* Gris oscuro */
 }
 
 #importaciones {
-    background-color: #fff;
-    /* Blanco */
+    background-color: #fff; /* Blanco */
     border-radius: 15px;
     padding-bottom: 15px;
 }
 
-#importaciones h2 {
-    padding-top: 15px;
-    color: #000;
-    /* Negro */
-}
-
-#importaciones h4 {
-    padding-top: 15px;
-    color: #000;
-    /* Negro */
-}
-
+#importaciones h2,
+#importaciones h4,
 #importaciones h5 {
     padding-top: 15px;
-    color: #000;
-    /* Negro */
+    color: #000; /* Negro */
 }
 
-#menos {
+#menos,
+#Visitar,
+#leer {
     font-size: 15px;
     border-radius: 5px;
-    color: #000;
-    /* Negro */
+    color: #000; /* Negro */
     cursor: pointer;
-    background-color: #fff;
-    /* Blanco */
-}
-
-.contenedor {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    background-color: #fff; /* Blanco */
 }
 
 #Visitar {
     font-size: 20px;
-    border-radius: 5px;
-    color: #000;
-    /* Negro */
-    background-color: #fff;
-    /* Blanco */
-    cursor: pointer;
-    margin-right: 10px;
 }
 
-#Visitar:hover {
-    background-color: #ccc;
-    /* Gris claro */
-}
-
-#leer {
-    font-size: 15px;
-    border-radius: 5px;
-    color: #000;
-    /* Negro */
-    cursor: pointer;
-    background-color: #fff;
-    /* Blanco */
-}
-
+#Visitar:hover,
 #leer:hover {
-    background-color: #ccc;
-    /* Gris claro */
+    background-color: #ccc; /* Gris claro */
 }
 
 p {
-    color: #000;
-    /* Negro */
+    color: #000; /* Negro */
     margin-right: 20px;
     margin-top: 15px;
     margin-bottom: 15px;
@@ -133,14 +85,12 @@ p {
 
 h1 {
     padding-top: 15px;
-    color: #000;
-    /* Negro */
+    color: #000; /* Negro */
 }
 
 .descripcion {
     border-radius: 15px;
-    background: #fff;
-    /* Blanco */
+    background: #fff; /* Blanco */
     padding: 20px;
     margin-top: 20px;
     border-left: 5px solid #181717;
@@ -149,35 +99,53 @@ h1 {
 .descripcion p {
     text-align: justify;
     line-height: 1.6;
-    color: #000;
-    /* Negro */
+    color: #000; /* Negro */
 }
 
 .footer {
-    background-color: #fff;
-    /* Blanco */
-    color: #000;
-    /* Negro */
+    background-color: #fff; /* Blanco */
+    color: #000; /* Negro */
     padding: 20px;
-    display: flex;
-    /* Establece un layout flexbox */
-    justify-content: space-between;
-    /* Distribuye los elementos en la fila */
-    align-items: center;
-    /* Centra los elementos verticalmente */
+    display: flex; /* Establece un layout flexbox */
+    justify-content: space-between; /* Distribuye los elementos en la fila */
+    align-items: center; /* Centra los elementos verticalmente */
 }
 
-.footer p:first-child {
-    text-align: left;
-    /* Pesca en Cuba a la izquierda */
-}
+/* Media Queries para Responsividad */
 
-.footer p:nth-child(2) {
-    text-align: center;
-    /* Universidad en el centro */
-}
+@media (max-width: 768px) {
+    
+   .navbar ul {
+        flex-direction: column; /* Cambia a columna en pantallas pequeñas */
+        align-items: center;   /* Centra los elementos horizontalmente */
+   }
 
-.footer p:last-child {
-    text-align: right;
-    /* Nombres de estudiantes a la derecha */
+   .navbar li {
+        margin-right: 0;      /* Elimina el margen derecho en móviles */
+        margin-bottom: 10px;   /* Añade un margen inferior para separación */
+   }
+
+   .contenedor {
+        flex-direction: column; /* Cambia a columna en pantallas pequeñas */
+        align-items: center;     /* Centra los elementos horizontalmente */
+   }
+
+   p {
+        margin-right: 10px;     /* Reduce el margen derecho en móviles */
+        margin-left: 10px;      /* Reduce el margen izquierdo en móviles */
+        padding-left: 10px;     /* Reduce el padding izquierdo en móviles */
+        padding-right: 10px;     /* Reduce el padding derecho en móviles */
+   }
+
+   .footer {
+        flex-direction: column; /* Cambia a columna en pantallas pequeñas */
+        align-items: center;     /* Centra los elementos horizontalmente */
+   }
+
+   .footer p:first-child,
+   .footer p:nth-child(2),
+   .footer p:last-child {
+       text-align:center;      /* Centra el texto en la footer para móviles*/
+       margin-bottom :10px ;   /* Añade un margen inferior para separación*/
+   }
 }
