@@ -117,8 +117,13 @@ h1 {
 }
 
 .estudiante {
-    font-size: 0.5rem; /* Tamaño de fuente más pequeño */
+    font-size: 0.75em; /* Tamaño de fuente más pequeño */
     color: #000; /* Negro, puedes cambiarlo si deseas otro color */
+}
+
+.universidad {
+    font-size: 1.2em; /* Tamaño de fuente más grande para universidades */
+    color: #000; /* Negro */
 }
 
 /* Media Queries para Responsividad */
