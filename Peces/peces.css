@@ -3,7 +3,6 @@
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
-    padding: 1rem;
 }
 
 .volver a {
@@ -55,6 +54,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    padding: 10px;
 }
 
 .contenedor {
