@@ -107,45 +107,24 @@ h1 {
     color: #000; /* Negro */
     padding: 20px;
     display: flex; /* Establece un layout flexbox */
-    justify-content: space-between; /* Distribuye los elementos en la fila */
-    align-items: center; /* Centra los elementos verticalmente */
+    flex-direction: column; /* Cambia a columna para móviles */
+    align-items: center; /* Centra los elementos horizontalmente */
+}
+
+.footer p {
+    text-align: center; /* Centra el texto */
+    margin-bottom: 10px; /* Espaciado entre secciones */
 }
 
 /* Media Queries para Responsividad */
+@media (min-width: 768px) {
+    .footer {
+        flex-direction: row; /* Cambia a fila en pantallas más grandes */
+        justify-content: space-around; /* Distribuye los elementos uniformemente */
+    }
 
-@media (max-width: 768px) {
-    
-   .navbar ul {
-        flex-direction: column; /* Cambia a columna en pantallas pequeñas */
-        align-items: center;   /* Centra los elementos horizontalmente */
-   }
-
-   .navbar li {
-        margin-right: 0;      /* Elimina el margen derecho en móviles */
-        margin-bottom: 10px;   /* Añade un margen inferior para separación */
-   }
-
-   .contenedor {
-        flex-direction: column; /* Cambia a columna en pantallas pequeñas */
-        align-items: center;     /* Centra los elementos horizontalmente */
-   }
-
-   p {
-        margin-right: 10px;     /* Reduce el margen derecho en móviles */
-        margin-left: 10px;      /* Reduce el margen izquierdo en móviles */
-        padding-left: 10px;     /* Reduce el padding izquierdo en móviles */
-        padding-right: 10px;     /* Reduce el padding derecho en móviles */
-   }
-
-   .footer {
-        flex-direction: column; /* Cambia a columna en pantallas pequeñas */
-        align-items: center;     /* Centra los elementos horizontalmente */
-   }
-
-   .footer p:first-child,
-   .footer p:nth-child(2),
-   .footer p:last-child {
-       text-align:center;      /* Centra el texto en la footer para móviles*/
-       margin-bottom :10px ;   /* Añade un margen inferior para separación*/
-   }
+    .footer p {
+        text-align: left; /* Alinea a la izquierda en pantallas grandes */
+        margin-bottom: 0; /* Elimina el margen inferior en pantallas grandes */
+    }
 }
