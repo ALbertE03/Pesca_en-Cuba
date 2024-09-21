@@ -2,11 +2,10 @@
 <html lang="es">
 
 <head>
-    <link href="Fish_Movie_35099.ico" rel="shortcut icon" type="image/x-icon" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pesca en Cuba</title>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -22,49 +21,50 @@
         })(window, document, 'dataLayer', 'cb2e2d3e-d902-4b54-9406-4fbae846491f');
     </script>
 
-    <nav class="navbar">
-        <ul>
-            <li><a href="/Pesca_en-Cuba/Peces/peces.html">Principales especies de peces</a></li>
-            <li><a href="/Pesca_en-Cuba/Empresas/empresas.html">Empresas de pesca</a></li>
+    <nav class="nav navbar-expand-lg">
+        <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="/Peces/peces.html">🐟 Principales especies de
+                    peces</a></li>
+            <li class="nav-item"><a class="nav-link" href="/Empresas/empresas.html">🏢 Empresas de
+                    pesca</a></li>
         </ul>
     </nav>
 
-    <main>
+    <main class="container">
         <section id="importaciones">
             <h2>DataProduct</h2>
-            <h4>Se realizó un producto de datos sobre la Pesca en Cuba en donde podrá encontrar:</h4>
-            <h5>Se requiere una VPN para acceder</h5>
+            <h4>📊 Se realizó un producto de datos sobre la Pesca en Cuba en donde podrá encontrar:</h4>
+            <h5>🔒 Se requiere una VPN para acceder</h5>
             <p>Se encuentra dividido en tres secciones principales:<br>
-                ➜ Económico: puede encontrar las capturas en
-                toneladas de los diferentes peces, además, la comparativa y
+                ➜ Económico: puede encontrar las capturas en toneladas de los diferentes peces, además, la comparativa y
                 relaciones entre Importaciones e Exportaciones<br>
                 ➜ Empresas: se encuentran las principales empresas de pesca en Cuba, junto a las pequeñas y medianas
                 empresas, sus localizaciones y las principales zonas de pesca.<br>
-                ➜ Leyes: se encuentran las acciones que ah tomado el gobierno de Cuba con
-                respecto a la
-                Pesca. </p>
+                ➜ Leyes: se encuentran las acciones que ah tomado el gobierno de Cuba con respecto a la Pesca.</p>
             <div class="contenedor">
-                <button id="Visitar">Visitar</button>
-                <button id="leer" style='display: inline;'>Leer más</button>
-                <button id="menos" style="display: none;"> Leer menos</button>
+                <button id="Visitar" class="btn btn-primary">👉 Visitar</button>
+                <button id="leer" class="btn btn-secondary">📄 Leer más</button>
+                <button id="menos" class="btn btn-secondary">📄 Leer menos</button>
             </div>
             <div id="mensaje"></div>
         </section>
-
-
     </main>
 
     <footer>
-        <p>&copy; 2024 Pesca en Cuba</p>
-        <p>
-            <b>Universidad de la Habana🏛️</b><br>
-            <b>Facultad: MATCOM</b><br>
-            <b>Carrera: Ciencia de Datos</b>
-        </p>
-        <p>Alberto Enrique Marichal Fonseca: primer año<br>
-            Dalia Castro Valdes: primer año
-        </p>
+        <div class="footer">
+            <p>&copy; 2024 Pesca en Cuba</p>
+            <p>
+                <b>Universidad de la Habana 🏛️</b><br>
+                <b>Facultad: MATCOM</b><br>
+                <b>Carrera: Ciencia de Datos</b>
+            </p>
+            <p>
+                <b>Alberto Enrique Marichal Fonseca:</b> 1er año <br>
+                <b>Dalia Castro Valdes:</b> 1er año
+            </p>
+        </div>
     </footer>
+
     <script src="script.js"></script>
 </body>
 
